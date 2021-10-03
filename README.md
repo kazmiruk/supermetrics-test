@@ -6,7 +6,7 @@ All required configurations variables are in `.env` file. It already contains de
 
 ## Commands
 
-- `docker-compose up dev` - start dev environment with exposing PORT (by default 8080). It uses nodemon to make development process easier
+- `docker-compose up dev` - start dev environment with exposing PORT (by default 8080). It uses nodemon to make development process easier. Result can be observed on `http://localhost:8080`
 - `docker-compose run test` - run unit tests
 
 **No production setup is provided**
